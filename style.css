@@ -45,3 +45,50 @@ footer {
     border: 2px solid #d4caff;
     border-radius: 8px;
 }
+
+.beach-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+}
+
+.beach-card {
+    flex: 1;
+    background-color: #ffffff;
+    padding: 15px;
+    border: 2px solid #d4caff;
+    border-radius: 8px;
+}
+
+/* --- MOBILE LAYOUT (320px-480px) --- */
+@media (max-width: 480px) {
+    .beach-container {
+        flex-direction: column;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* --- TABLET LAYOUT (481px-768px) --- */
+@media (min-width: 481px) and (max-width: 768px) {
+    .beach-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .beach-card {
+        flex: 0 0 48%;
+    }
+}
+
+/* --- DESKTOP LAYOUT (1200px and above) ---*/
+@media (min-width: 1200px) {
+    .beach-container {
+        flex-direction: row;
+    }
+}
