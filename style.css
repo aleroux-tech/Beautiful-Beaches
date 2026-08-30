@@ -32,7 +32,7 @@ body {
 
 .nav-list a {
     text-decoration: none;
-    color: #4a2ecc;
+    color: #2a1a99; /* improved contrast*/
     font-weight: bold;
 }
 
