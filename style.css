@@ -32,7 +32,8 @@ body {
 
 .nav-list a {
     text-decoration: none;
-    color: #2a1a99; /* improved contrast*/
+    color: #2a1a99;
+    /* improved contrast*/
     font-weight: bold;
 }
 
@@ -91,4 +92,8 @@ footer {
     .beach-container {
         flex-direction: row;
     }
+}
+
+#colorPreview {
+    transition: color 0.3s ease;
 }
