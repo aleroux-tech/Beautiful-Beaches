@@ -87,7 +87,32 @@
           </ol>
         </section>
       </div>
-      <!-- end beach container -->
+     
+       <section class="beach-card">
+        <h2>Contact Form</h2>
+        
+        <form id="contactForm">
+          <label for="name">Name (required)</label>
+          <input id="name" type="text" />
+          <p class="error" id="nameError"></p>
+
+<label for="email">Email (required)</label>
+<input id="email" type="email" />
+<p class="error" id="emailError"></p>
+
+<label for="phone">Phone Number</label>
+<input id="phone" type="tel" />
+<p class="error" id="phoneError"></p>
+
+<label for="message">Message (required)</label>
+<input id="message" type="text" />
+<p class="error" id="messageError"></p>
+
+<button type="submit">Submit</button>
+        </form>
+
+        <div id="apiBox"></div>
+      </section>
     </main>
 
     <footer>
@@ -96,5 +121,6 @@
         Destination. All rights reserved.
       </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
